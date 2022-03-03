@@ -27,30 +27,36 @@
 
     <nav class="navbar navbar-expand-lg ">
         <div class="container">
-            <a class="navbar-brand" href="#">Organic</a>
+            <a class="navbar-brand" href="#"> Organic Food Store</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav m-auto my-2 my-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                    <li class="nav-item px-2 ">
+
+                        <button type="button" class=" rounded  btn-outline-danger">
+                            <a class="nav-link active " href="#">Home</a></button>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trending</a>
+                    <li class="nav-item px-2 ">
+                        <button type="button" class=" rounded  btn-outline-danger">
+                            <a class="nav-link" href="#product">Trending</a></button>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Store</a>
+
+
+                    <li class="nav-item px-2 ">
+
+                        <button type="button" class=" rounded  btn-outline-danger">
+                            <a class="nav-link " href="#about">Store</a></button>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Organic</a>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Contact</a>
+                    <li class="nav-item px-2 ">
+
+                        <button type="button" class=" rounded  btn-outline-danger">
+                            <a class="nav-link " href="#Contact">Contact</a></button>
                     </li>
 
 
@@ -79,37 +85,14 @@
 
     <!-- CATEGORY SECTION -->
 
-    <section class="new">
-        <div class="container pt-5 ">
-            <div class="row pt-5">
-                <div class="col-lg-7 m-auto p-0">
-                    <div class="row text-center">
-                        <div class="col-lg-4">
-                            <img src="img/mango-unsplah.jpg" class="img-luid" alt="">
-                            <h6>NATURAL</h6>
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/grapes-unsplash.jpg" class="img-luid" alt="">
-                            <h6>ORGANIC</h6>
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/banana-unsplash.jpg" class="img-luid" alt="">
-                            <h6>HEALTH</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- TRENDING PRODUCTS-->
 
-    <section class="product">
-        <div class="container pt-5">
-            <div class="row pt-5 ">
-                <div class="col-lg-5 m-auto text-center">
+    <section id="product" class="product">
+        <div class="container pt-2">
+            <div class="row pt-3  ">
+                <div class="col-lg-5 pb-1 m-auto text-center">
                     <h1>What's Trending</h1>
-                    <h6 style="color: red;">Be Healthy Organic Food</h6>
+                    <h5 style="color: red;">Be Healthy Organic Food</h5>
                 </div>
             </div>
 
@@ -120,8 +103,9 @@
                             <img src="img/product1.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
-                    <h6>Starwberry Milkshake </h6>
-                    <p>Rs.56.00</p>
+                    <h5>Starwberry Milkshake </h5>
+                    <s> <span class="text-danger">₹. 100.00</span></s>
+                    <span>₹. 80.00</span>
                 </div>
 
                 <div class="col-lg-3 text-center">
@@ -130,8 +114,9 @@
                             <img src="img/product2.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
-                    <h6>Mango Juice </h6>
-                    <p>Rs.56.00</p>
+                    <h5>Mango Juice </h5>
+                    <s> <span class="text-danger">₹. 75.00</span></s>
+                    <span>₹. 50.00</span>
                 </div>
 
                 <div class="col-lg-3 text-center">
@@ -140,8 +125,9 @@
                             <img src="img/product3.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
-                    <h6>Lemon Juice </h6>
-                    <p>Rs.56.00</p>
+                    <h5>Lemon Juice </h5>
+                    <s> <span class="text-danger">₹. 35.00</span></s>
+                    <span>₹. 30.00</span>
                 </div>
 
                 <div class="col-lg-3 text-center">
@@ -150,12 +136,13 @@
                             <img src="img/product4.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
-                    <h6>Kiwi fruit Juice </h6>
-                    <p>Rs.56.00</p>
+                    <h5>Kiwi fruit Juice </h5>
+                    <s> <span class="text-danger">₹. 135.00</span></s>
+                    <span>₹. 100.00</span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 text-center m-auto">
+                <div class="col-lg-6 pt-4 text-center m-auto">
                     <button class="btn1">Click for More</button>
                 </div>
             </div>
@@ -164,9 +151,9 @@
 
     <!-- ABOUT US-->
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container py-5">
-            <div class="row py-5">
+            <div class="row pt-5 pb-2">
                 <div class="col-lg-8 m-auto text-center">
                     <h1>Welcome to our Organic Food Store</h1>
                     <h6 style="color: red;"> Be Healthy Organic Food</h6>
@@ -174,29 +161,39 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="img/advertise1.jpg" class="img-fluid mb-3" alt="">
+                    <!-- <img src="img/advertise1.jpg" class="img-fluid mb-3" alt=""> -->
+                    <video controls autoplay loop muted class="video1">
+                        <source src="video/prod1.mp4" type="video/mp4">
+                    </video>
                     <h5 class=" text-center">Best Quality Product</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quo alias minima excepturi
-                        dolore dignissimos.</p>
+                    <p>Our Products go through stringent checks which include identifying visible damages, worms,
+                        dirts, etc to ensure all the products are contamination free and safe for consumption.</p>
                 </div>
 
                 <div class="col-lg-4">
-                    <img src="img/advertise2.jpg" class="img-fluid mb-3" alt="">
+                    <!-- <img src="img/advertise2.jpg" class="img-fluid mb-3" alt=""> -->
+                    <video controls autoplay loop muted class="video1">
+                        <source src="video/prod2.mp4" type="video/mp4">
+                    </video>
                     <h5 class=" text-center">No Chemicals, No Pesticides</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quo alias minima excepturi
-                        dolore dignissimos.</p>
+                    <p>All our products are directly shipped from farmers without being stored in Cold storage areas
+                        thus we
+                        keep ourselves aligned with the statment "FARM to PLATE"</p>
                 </div>
 
                 <div class="col-lg-4">
-                    <img src="img/advertise3.jpg" class="img-fluid mb-3" alt="">
+                    <!-- <img src="img/advertise3.jpg" class="img-fluid mb-3" alt=""> -->
+                    <video controls autoplay loop muted class="video1">
+                        <source src="video/prod3.mp4" type="video/mp4">
+                    </video>
                     <h5 class=" text-center">Best Organic Food</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quo alias minima excepturi
-                        dolore dignissimos.</p>
+                    <p> Fruits and Vegetables that are free from harmfull pesticides and chemicals will not only satiate
+                        our appitite but it enhances natural growth of metabolism in our body. </p>
                 </div>
 
             </div>
 
-            <div class="row pt-3">
+            <div class="row pt-2">
                 <div class="col-lg-6 text-center m-auto">
                     <button class="btn1">Shop More</button>
                 </div>
@@ -213,165 +210,255 @@
                     <h6 style="color: red;"> Pick Your Product From Our store</h6>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 text-center">
+
+
+            <div class="row pb-5">
+                
+
+                <div class="col-lg-3  text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product1.jpg" class="img-fluid" alt="">
+                            <img src="img/carrot.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Carrot 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 95.00</span></s>
+                            <span>₹. 74.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Starwberry Milkshake </h6>
-                    <p>Rs.56.00</p>
                 </div>
 
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3  text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product2.jpg" class="img-fluid" alt="">
+                            <img src="img/tomato.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Tomato 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 45.00</span></s>
+                            <span>₹. 24.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Mango Juice </h6>
-                    <p>Rs.56.00</p>
                 </div>
 
-                <div class="col-lg-3 text-center">
+              
+
+                <div class="col-lg-3  text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product3.jpg" class="img-fluid" alt="">
+                            <img src="img/potato.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Potato 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 55.00</span></s>
+                            <span>₹. 41.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Lemon Juice </h6>
-                    <p>Rs.56.00</p>
+                </div>
+                 
+
+                <div class="col-lg-3  text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="img/brinjal.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h5>Brinjal 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 62.00</span></s>
+                            <span>₹. 45.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                    </div>
                 </div>
 
-                <div class="col-lg-3 text-center">
+               
+
+
+
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product4.jpg" class="img-fluid" alt="">
+                            <img src="img/cauliflower.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>CauliFlower 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 52.00</span></s>
+                            <span>₹. 39.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Kiwi fruit Juice </h6>
-                    <p>Rs.56.00</p>
+                </div>
+                
+
+
+                <div class="col-lg-3 pt-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="img/cucumber.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h5>Cucumber 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 33.00</span></s>
+                            <span>₹. 30.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                    </div>
+                </div> 
+
+
+                <div class="col-lg-3 pt-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <div class="card-body">
+                            <img src="img/corn.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <h5>Corn 10 Nos </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 120.00</span></s>
+                            <span>₹. 90.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
+                    </div>
                 </div>
 
-                <div class="col-lg-3 text-center">
+
+
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product1.jpg" class="img-fluid" alt="">
+                            <img src="img/chilli.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Red Chilli 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 78.00</span></s>
+                            <span>₹. 70.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Starwberry Milkshake </h6>
-                    <p>Rs.56.00</p>
                 </div>
 
-                <div class="col-lg-3 text-center">
-                    <div class="card border-0 bg-light mb-2">
-                        <div class="card-body">
-                            <img src="img/product2.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <h6>Mango Juice </h6>
-                    <p>Rs.56.00</p>
-                </div>
 
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product3.jpg" class="img-fluid" alt="">
+                            <img src="img/apple.jpg" class="img-fluid" alt="">
                         </div>
-                    </div>
-                    <h6>Lemon Juice </h6>
-                    <p>Rs.56.00</p>
-                </div>
 
-                <div class="col-lg-3 text-center">
-                    <div class="card border-0 bg-light mb-2">
-                        <div class="card-body">
-                            <img src="img/product4.jpg" class="img-fluid" alt="">
+                        <h5>Apple 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 250.00</span></s>
+                            <span>₹. 200.00</span>
                         </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Kiwi fruit Juice </h6>
-                    <p>Rs.56.00</p>
                 </div>
-
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product1.jpg" class="img-fluid" alt="">
+                            <img src="img/orange.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Orange 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 200.00</span></s>
+                            <span>₹. 180.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Starwberry Milkshake </h6>
-                    <p>Rs.56.00</p>
                 </div>
-
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product2.jpg" class="img-fluid" alt="">
+                            <img src="img/mango.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5> Mango 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 90.00</span></s>
+                            <span>₹. 80.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Mango Juice </h6>
-                    <p>Rs.56.00</p>
                 </div>
-
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product3.jpg" class="img-fluid" alt="">
+                            <img src="img/pomegranate.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Pomegranate 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 220.00</span></s>
+                            <span>₹. 187.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Lemon Juice </h6>
-                    <p>Rs.56.00</p>
                 </div>
-
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product4.jpg" class="img-fluid" alt="">
+                            <img src="img/banana.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Banana 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 55.00</span></s>
+                            <span>₹. 38.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Kiwi fruit Juice </h6>
-                    <p>Rs.56.00</p>
                 </div>
-
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product1.jpg" class="img-fluid" alt="">
+                            <img src="img/grapes.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>Grapes 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 270.00</span></s>
+                            <span>₹. 230.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Starwberry Milkshake </h6>
-                    <p>Rs.56.00</p>
                 </div>
-
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product2.jpg" class="img-fluid" alt="">
+                            <img src="img/pineapple.jpg" class="img-fluid" alt="">
                         </div>
+
+                        <h5>PineApple 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 118.00</span></s>
+                            <span>₹. 90.00</span>
+                        </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Mango Juice </h6>
-                    <p>Rs.56.00</p>
                 </div>
-
-                <div class="col-lg-3 text-center">
+                <div class="col-lg-3 pt-3 text-center">
                     <div class="card border-0 bg-light mb-2">
                         <div class="card-body">
-                            <img src="img/product3.jpg" class="img-fluid" alt="">
+                            <img src="img/strawberry.jpg" class="img-fluid" alt="">
                         </div>
-                    </div>
-                    <h6>Lemon Juice </h6>
-                    <p>Rs.56.00</p>
-                </div>
 
-                <div class="col-lg-3 text-center">
-                    <div class="card border-0 bg-light mb-2">
-                        <div class="card-body">
-                            <img src="img/product4.jpg" class="img-fluid" alt="">
+                        <h5>StrawBerry 1Kg </h5>
+                        <div style="display: inline-block;">
+                            <s> <span class="text-danger">₹. 118.00</span></s>
+                            <span>₹. 100.00</span>
                         </div>
+                        <button type="button" class="btn btn-primary">Buy</button>
                     </div>
-                    <h6>Kiwi fruit Juice </h6>
-                    <p>Rs.56.00</p>
                 </div>
 
             </div>
@@ -394,27 +481,25 @@
 
 
 
-    <section class="contact py-5">
+    <section id="Contact" class="contact py-5 ">
         <div class="container py-5">
             <div class="row text-center">
-                <div class="col-lg-5 m-auto ">
+                <div class=" col-lg-5 m-auto ">
                     <h1>Contact Us</h1>
-                    <h6 style="color: red;">Always Be In Touch With Us</h6>
+
                 </div>
             </div>
-            <div class="row py-5">
-                <div class="col-lg-9 m-auto">
-                    <div class="row">
+            <div class="row  py-5">
+                <div class="col-lg-9 m-auto ">
+                    <div style="border-radius: 30px;" class="row pt-4 pb-4  bg-white  border border-primary   ">
                         <div class="col-lg-4">
-                            <h6>LOCATION</h6>
+                            <h5 class="pt-3 text-primary">LOCATION</h5>
                             <h6>Bangalore, Karnataka</h6>
-                            <!-- </div>
-                        <div class="col-lg-4"> -->
-                            <h6>PHONE</h6>
+
+                            <h5 class="pt-3 text-primary">PHONE</h5>
                             <h6>+91-98765 43210</h6>
-                            <!-- </div>
-                        <div class="col-lg-4"> -->
-                            <h6>e-MAIL</h6>
+
+                            <h5 class="pt-3 text-primary">e-MAIL</h5>
                             <h6>contact@organic.com</h6>
                         </div>
 
@@ -430,7 +515,7 @@
                             <div class="row">
                                 <div class="col-lg-12 py-3">
                                     <textarea name="" class="form-control bg-light " id="" cols="10" rows="5"
-                                        placeholder="Enter Your Name"></textarea>
+                                        placeholder="Share us Your Feedback"></textarea>
                                 </div>
                             </div>
                             <button class="btn1">Submit </button>

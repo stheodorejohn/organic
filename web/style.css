@@ -155,3 +155,26 @@ h1 {
     padding-right: 5px;
 
 }
+
+
+/* VIDEO CONTROLS*/
+
+.video1{
+    
+        width: 100%;
+        height: auto;
+      
+}
+
+
+/*CONTACT US*/ 
+
+.contact {
+    /* background: linear-gradient(rgba(0,0,0,0.2),(rgba(0,0,0,0.2)),url(./img/footer.jpg)no-repeat; */
+    background: url("/img/contact.jpg")no-repeat;
+    background-size: cover;
+    
+    height: 80vh;
+    width: 100%;
+    
+}

@@ -54,7 +54,7 @@
 /* Main section*/
 
 .main {
-    background: url('/img/lunch-unsplash.jpg')no-repeat;
+    background: url('../img/lunch-unsplash.jpg')no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: 50% 50%;
@@ -171,7 +171,7 @@ h1 {
 
 .contact {
     /* background: linear-gradient(rgba(0,0,0,0.2),(rgba(0,0,0,0.2)),url(./img/footer.jpg)no-repeat; */
-    background: url("/img/contact.jpg")no-repeat;
+    background: url("../img/contact.jpg")no-repeat;
     background-size: cover;
     
     height: 80vh;
